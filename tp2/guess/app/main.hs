@@ -20,3 +20,8 @@ main :: IO ()
 main = do
     target <- randomRIO (0, 100)
     runGame target 10
+
+-- >>> :info compare
+
+-- >>> :info Ordering
+
