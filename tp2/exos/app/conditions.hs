@@ -1,18 +1,32 @@
 module Main where
 
 -------------------------------------------------------------------------------
--- fonctions simples
+-- conditions
 -------------------------------------------------------------------------------
 
--- TODO f
+-- TODO formateParite1
 
--- TODO g
+-- TODO formateSigne1
 
 -------------------------------------------------------------------------------
--- fonctions à plusieurs paramètres
+-- gardes
 -------------------------------------------------------------------------------
 
--- TODO h
+-- TODO formateParite2
+
+-- TODO formateSigne2
+
+-------------------------------------------------------------------------------
+-- variables locales
+-------------------------------------------------------------------------------
+
+-- TODO borneEtFormate1
+
+-- TODO borneEtFormate1'
+
+-- TODO borneEtFormate2
+
+-- TODO borneEtFormate2'
 
 -------------------------------------------------------------------------------
 -- main
@@ -20,5 +34,5 @@ module Main where
 
 main :: IO ()
 main = do
-    putStrLn "fonctions"
+    putStrLn "conditions"
 

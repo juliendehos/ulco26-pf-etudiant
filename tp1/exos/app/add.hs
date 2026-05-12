@@ -1,6 +1,12 @@
 module Main where
 
--- TODO
+-- TODO addInt
+
+-- TODO addDouble
+
+-- TODO addNum
+
+-- TODO u, v
 
 main :: IO ()
 main = do
