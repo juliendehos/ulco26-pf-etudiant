@@ -1,0 +1,19 @@
+cabal-version:      3.0
+name:               cowsay
+version:            0.1.0.0
+
+common deps
+    ghc-options:      -Wall -O2
+    build-depends:    base, string-qq
+    hs-source-dirs:   app
+    default-language: GHC2024
+
+executable cowsay
+    import:           deps
+    main-is:          cowsay.hs
+
+executable cowsay-multi
+    import:           deps
+    main-is:          cowsay-multi.hs
+
+
