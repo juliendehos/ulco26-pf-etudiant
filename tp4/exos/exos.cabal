@@ -1,0 +1,22 @@
+cabal-version:      3.0
+name:               exos
+version:            0.1.0.0
+
+common deps
+    ghc-options:      -Wall -O2
+    build-depends:    base
+    hs-source-dirs:   app
+    default-language: GHC2024
+
+executable recursivite
+    import:           deps
+    main-is:          recursivite.hs
+
+executable listes
+    import:           deps
+    main-is:          listes.hs
+
+executable tco
+    import:           deps
+    main-is:          tco.hs
+
