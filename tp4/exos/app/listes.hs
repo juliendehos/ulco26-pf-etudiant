@@ -1,6 +1,6 @@
 module Main where
 
-import Data.Char ( toUpper )
+import Data.Char ( toUpper, isLetter )
 
 -- TODO mylength
 
