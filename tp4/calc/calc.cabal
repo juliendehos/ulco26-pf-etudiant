@@ -1,5 +1,5 @@
 cabal-version:      3.0
-name:               annuaire
+name:               calc
 version:            0.1.0.0
 
 common deps
@@ -8,7 +8,7 @@ common deps
     hs-source-dirs:   app
     default-language: GHC2024
 
-executable annuaire
+executable calc
     import:           deps
     main-is:          main.hs
 
