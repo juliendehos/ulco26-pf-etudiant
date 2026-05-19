@@ -1,0 +1,30 @@
+cabal-version:      3.0
+name:               exos
+version:            0.1.0.0
+
+common deps
+    ghc-options:      -Wall -O2
+    build-depends:    base
+    hs-source-dirs:   app
+    default-language: GHC2024
+
+executable map
+    import:           deps
+    main-is:          map.hs
+
+executable filter
+    import:           deps
+    main-is:          filter.hs
+
+executable fold
+    import:           deps
+    main-is:          fold.hs
+
+executable comprehension
+    import:           deps
+    main-is:          comprehension.hs
+
+executable recap
+    import:           deps
+    main-is:          recap.hs
+
