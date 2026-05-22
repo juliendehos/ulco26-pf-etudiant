@@ -1,0 +1,14 @@
+cabal-version:      3.0
+name:               spiral
+version:            0.1.0.0
+
+common deps
+    ghc-options:      -Wall -O2 -Wno-x-partial
+    build-depends:    base
+    default-language: GHC2024
+
+executable spiral
+    import:             deps
+    hs-source-dirs:     app
+    main-is:            Main.hs
+
