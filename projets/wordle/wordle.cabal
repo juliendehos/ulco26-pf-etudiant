@@ -1,0 +1,11 @@
+cabal-version:      3.0
+name:               wordle
+version:            0.1.0.0
+
+executable wordle
+    ghc-options:      -Wall -O2
+    default-language: GHC2024
+    build-depends:    base, containers, random
+    hs-source-dirs:   app
+    main-is:          main.hs
+
