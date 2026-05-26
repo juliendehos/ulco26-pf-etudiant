@@ -1,0 +1,20 @@
+cabal-version:      3.0
+name:               ascii-draw
+version:            0.1.0.0
+
+common deps
+    ghc-options:      -Wall -O2
+    build-depends:    base, vector
+    default-language: GHC2024
+
+library
+    import:             deps
+    hs-source-dirs:     src
+    exposed-modules:    MyIO
+
+executable ascii-draw
+    import:             deps
+    hs-source-dirs:     app
+    main-is:            main.hs
+    build-depends:      ascii-draw
+
