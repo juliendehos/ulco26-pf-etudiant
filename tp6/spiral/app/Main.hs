@@ -12,15 +12,16 @@ type GetLine = Matrix -> Line
 -- Type des fonctions qui récupèrent la matrice restante pour l'étape courante.
 type GetMatrix = Matrix -> Matrix
 
--- Réalise le parcours donné sur la matrice donnée.
--- Les fonctions passées en argument implémentent le parcours.
--- TODO process :: [(GetLine, GetMatrix)] -> Matrix -> [Char]
-
--- Liste de fonctions implémentant le parcours en spiral.
+-- Liste de fonctions permettant de réaliser le parcours en spiral.
 --
 -- Cette liste se répète à l'infini, pour pouvoir traiter 
 -- des matrices aussi grandes que l'on veut.
 -- TODO spiralOps :: [(GetLine, GetMatrix)]
+
+-- Réalise le parcours donné sur la matrice donnée.
+--
+-- Les fonctions passées en argument définissent le parcours à réaliser.
+-- TODO process :: [(GetLine, GetMatrix)] -> Matrix -> [Char]
 
 -- Quelques matrices de test.
 testMatrix44, testMatrix55, testMatrix64 :: Matrix
