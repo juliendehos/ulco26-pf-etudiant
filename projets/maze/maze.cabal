@@ -1,0 +1,20 @@
+cabal-version:      3.0
+name:               maze
+version:            0.1.0.0
+
+common deps
+    ghc-options:      -Wall -O2
+    build-depends:    base, vector
+    default-language: GHC2024
+
+library
+    import:             deps
+    hs-source-dirs:     src
+    exposed-modules:    MyIO
+
+executable maze
+    import:             deps
+    hs-source-dirs:     app
+    main-is:            main.hs
+    build-depends:      maze
+
